@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Course Title -->
+    <TextView
+        android:id="@+id/courseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+    <!-- Milestone Title -->
+    <TextView
+        android:id="@+id/milestoneTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milestone Title"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progress="0"
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <!-- Progress Percentage -->
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Resume Button -->
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resume"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
